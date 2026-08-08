@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Navbar /> 
      <Routes>
-          // <Route exact path="/" element={<><HeroSection /> <News key="general" category="general" /></>} />
+          <Route exact path="/" element={<> <News key="general" category="general" /></>} />
           <Route exact path="/business" element={<News category="business" />} />
           <Route exact path="/technology" element={<News category="technology" />} />
           <Route path="/search/:query" element={<SearchResults />} />
