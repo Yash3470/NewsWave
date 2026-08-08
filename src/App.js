@@ -5,7 +5,7 @@ import Navbar from './components/NavBar';
 import News from './components/News';
 import Footer from './components/Footer';
 import SearchResults from './components/SearchResults';
-import HeroSection from './components/HeroSection';
+// import HeroSection from './components/HeroSection';
 import './App.css';
 import './index.css'; // Import global styles
 
